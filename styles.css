@@ -1,0 +1,171 @@
+:root{
+	--green:  #0097A7;
+	--orange:  #FFAB40;
+	--gray:  #78909C;
+	--yellow: #EEFF41;
+}
+
+*{
+	font-family: Comfortaa;
+	color: var(--gray);
+}
+
+.amatic{
+	font-family: Amatic SC;
+}
+
+.comfortaa{
+	font-family: Comfortaa;
+}
+
+.plain{
+	font-weight: 400;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.text-orange{
+	color: var(--orange);
+}
+
+.text-green{
+	color: var(--green);
+}
+
+.text-gray{
+	color: var(--gray);
+}
+
+.text-center{
+	text-align:  center;
+}
+
+.bg-yellow{
+	background: var(--yellow);
+}
+
+.inline-flex{
+	display: inline-flex;
+}
+
+.top{
+	vertical-align: top;
+}
+
+.m-0{
+	margin: 0;
+}
+
+.ml-15{
+	margin-left: 15px;
+}
+
+.mt-10{
+	margin-top: 10px;
+}
+
+.mb-40{
+	margin-bottom: 40px;
+}
+
+.mr-85{
+	margin-right: 85px;
+}
+
+.mt-40{
+	margin-top: 40px;
+}
+
+.mx-auto{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.flex{
+	display: flex;
+}
+
+.row{
+	flex-direction: row;
+}
+
+.row-reverse{
+	flex-direction: row-reverse;
+}
+
+.col-2{
+	flex: 16.666%;
+}
+
+.col-3{
+	flex: 25%;
+}
+
+.col-4{
+	flex: 33.333%;
+}
+
+.col-5{
+	flex: 41.666%;
+}
+
+.col-7{
+	flex: 58.333%;
+	width: 58.333%;
+}
+
+.col-8{
+	flex: 66.666%;
+	width: 66.666%;
+}
+
+.col-9{
+	flex: 75%;
+	width: 75%;
+}
+
+.col-10{
+	flex: 83.333%;
+	width: 83.333%;
+}
+
+.border-radius{
+	border-radius: 100px;
+}
+
+.border-green{
+	border-color: var(--green);
+}
+
+.border-orange{
+	border-color: var(--orange);
+}
+
+.border{
+	border-width: 1px;
+	border-style: solid;
+}
+
+.border-left-radius{
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
+
+.border-left-none{
+	border-left-style: none;
+}
+
+.py-8{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.pr-30{
+	padding-right: 30px;
+}
+
+.icon{
+	width:  15px
+}
