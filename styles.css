@@ -14,6 +14,18 @@ body{
 	color: var(--gray);
 }
 
+.paragraph{
+	font-size: 2.1vh;
+}
+
+.subtitle{
+	font-size: 2.5vh;
+}
+
+.title{
+	font-size: 8vh;
+}
+
 .amatic{
 	font-family: Amatic SC;
 }
